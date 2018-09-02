@@ -1322,7 +1322,7 @@ Pricing tables
         position: absolute;
         left: 0;
         top: 0;
-        font-family: "Font Awesome 5 Free";
+        font-family: 'Font Awesome 5 Brands', "Font Awesome 5 Free";
         content: "\f00c"; }
       .pricing-features ul li:last-child {
         margin-bottom: 0px; }
