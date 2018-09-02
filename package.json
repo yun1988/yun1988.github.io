@@ -6,12 +6,12 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.3.1",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0",
     "gulp-watch": "^4.3.11"
   },
   "devDependencies": {
     "gulp-concat": "^2.6.1",
     "gulp-concat-css": "^3.1.0",
+    "gulp-sass": "^3.2.1",
     "gulp-util": "^3.0.8"
   },
   "scripts": {

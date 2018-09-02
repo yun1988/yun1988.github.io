@@ -14,36 +14,38 @@ gulp.task('watch', function () {
     gulp.watch('html/scss/**/*.scss', ['sass']);
 });
 
-gulp.task('c
- oncat ', function () {
- return gulp.src([
-    'html/bower_components/jquery/dist/jquery.min.js',
-    'html/bootstrap/dist/js/bootstrap.bundle.min.js',
-    'html/js/jquery.easing.min.js',
-    'html/js/jquery.slimscroll.min.js',
-    'html/js/jquery.sticky.js',
-    'html/bower_components/wow/dist/wow.min.js',
-    'html/js/jquery.preloader.min.js',
-    'html/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js',
-    'html/bower_components/owl.carousel/dist/owl.carousel.min.js',
-    'html/bower_components/jarallax/dist/jarallax.min.js',
-    'html/bower_components/jarallax/dist/jarallax-video.min.js',
-    'html/js/smooth-scroll.min.js',
-    'html/bower_components/jquery-knob/dist/jquery.knob.min.js'
-]).pipe(concat('plugins.js')).pipe(gulp.dest('html/js/plugins/'));});
+gulp.task('concat ', function () {
+    return gulp
+        .src([
+        'html/bower_components/jquery/dist/jquery.min.js',
+        'html/bootstrap/dist/js/bootstrap.bundle.min.js',
+        'html/js/jquery.easing.min.js',
+        'html/js/jquery.slimscroll.min.js',
+        'html/js/jquery.sticky.js',
+        'html/bower_components/wow/dist/wow.min.js',
+        'html/js/jquery.preloader.min.js',
+        'html/bower_components/magnific-popup/dist/jquery.magnific-popup.min.js',
+        'html/bower_components/owl.carousel/dist/owl.carousel.min.js',
+        'html/bower_components/jarallax/dist/jarallax.min.js',
+        'html/bower_components/jarallax/dist/jarallax-video.min.js',
+        'html/js/smooth-scroll.min.js',
+        'html/bower_components/jquery-knob/dist/jquery.knob.min.js'
+    ])
+        .pipe(concat('plugins.js'))
+        .pipe(gulp.dest('html/js/plugins/'));
+});
 
-gulp
-.task('concatCss', function () {
-return gulp
-    .src([
-    'html/css/animate.css',
-    'html/bower_components/pushy/css/pushy.css',
-    'html/bower_components/magnific-popup/dist/magnific-popup.css',
-    'html/bower_components/owl.carousel/dist/assets/owl.carousel.min.css',
-    'html/bower_components/owl.carousel/dist/assets/owl.theme.default.min.css',
-    'html/et-line-font/style.css',
-    'html/bootstrap/dist/css/bootstrap.min.css'
-])
-    .pipe(concatCss("plugins/plugins.css"))
-    .pipe(gulp.dest('html/css/'));
+gulp.task('concatCss', function () {
+    return gulp
+        .src([
+        'html/css/animate.css',
+        'html/bower_components/pushy/css/pushy.css',
+        'html/bower_components/magnific-popup/dist/magnific-popup.css',
+        'html/bower_components/owl.carousel/dist/assets/owl.carousel.min.css',
+        'html/bower_components/owl.carousel/dist/assets/owl.theme.default.min.css',
+        'html/et-line-font/style.css',
+        'html/bootstrap/dist/css/bootstrap.min.css'
+    ])
+        .pipe(concatCss("plugins/plugins.css"))
+        .pipe(gulp.dest('html/css/'));
 });
