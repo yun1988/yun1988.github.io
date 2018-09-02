@@ -1,6 +1,13 @@
-$title-font:'Open Sans', sans-serif;
-$styled-font:'Playfair Display', serif;
-$base-font:'Open Sans', sans-serif;
+$title-font:'Noto Sans TC',
+'Open Sans',
+sans-serif,
+'微軟正黑體';
+$styled-font:'Playfair Display',
+serif;
+$base-font:'Noto Sans TC',
+'Open Sans',
+sans-serif,
+'微軟正黑體';
 $primary-color:#4683df;
 $danger-color:#c9302c;
 $success-color:#5cb85c;
@@ -8,4 +15,3 @@ $warning-color:#f0ad4e;
 $default-color:#f7f7f7;
 $dark-color:#333;
 $info-color:#5bc0de;
-
