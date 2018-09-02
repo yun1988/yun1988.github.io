@@ -622,10 +622,14 @@ Preloader style
 /*
 Buttons
 */
-.form-control-lg, .input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn {
+.form-control-lg,
+.input-group-lg > .form-control,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .btn {
   font-size: .8rem; }
 
-.btn, .button {
+.btn,
+.button {
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -637,12 +641,15 @@ Buttons
   font-family: "Noto Sans TC", "Open Sans", sans-serif, "微軟正黑體";
   padding: 10px 30px 10px !important;
   text-transform: uppercase; }
-  .btn i, .button i {
+  .btn i,
+  .button i {
     display: inline-block;
     margin-right: 8px; }
-  .btn.btn-rounded, .button.btn-rounded {
+  .btn.btn-rounded,
+  .button.btn-rounded {
     border-radius: 100px; }
-  .btn:before, .button:before {
+  .btn:before,
+  .button:before {
     content: "";
     position: absolute;
     left: 0;
@@ -651,30 +658,40 @@ Buttons
     height: 100%;
     z-index: -1;
     transition: all .3s; }
-  .btn:hover, .btn:focus, .button:hover, .button:focus {
+  .btn:hover, .btn:focus,
+  .button:hover,
+  .button:focus {
     box-shadow: none;
     outline: 0 !important; }
-    .btn:hover:before, .btn:focus:before, .button:hover:before, .button:focus:before {
+    .btn:hover:before, .btn:focus:before,
+    .button:hover:before,
+    .button:focus:before {
       transition: all .3s;
       z-index: -1; }
-  .btn.btn-link, .button.btn-link {
+  .btn.btn-link,
+  .button.btn-link {
     border: 0px;
     padding: 0px !important; }
-  .btn.btn-sm, .button.btn-sm {
+  .btn.btn-sm,
+  .button.btn-sm {
     padding: 9px 15px 9px !important;
     font-size: .6rem; }
-  .btn.btn-lg, .button.btn-lg {
+  .btn.btn-lg,
+  .button.btn-lg {
     padding: 14px 40px 14px !important;
     font-size: .95rem; }
-  .btn.btn-link, .button.btn-link {
+  .btn.btn-link,
+  .button.btn-link {
     color: #4683df;
     text-transform: capitalize; }
-    .btn.btn-link:after, .button.btn-link:after {
+    .btn.btn-link:after,
+    .button.btn-link:after {
       font-family: 'FontAwesome';
       content: "\f101";
       margin-left: 5px;
       font-size: 12px; }
-    .btn.btn-link:hover, .button.btn-link:hover {
+    .btn.btn-link:hover,
+    .button.btn-link:hover {
       text-decoration: none;
       color: #999; }
 
@@ -778,10 +795,22 @@ Buttons
       background-color: #ccc; }
 
 /**fill buttons**/
-.btn-primary, .btn-success, .btn-warning, .btn-danger, .btn-info, .btn-secondary, .btn-dark {
+.btn-primary,
+.btn-success,
+.btn-warning,
+.btn-danger,
+.btn-info,
+.btn-secondary,
+.btn-dark {
   box-shadow: 0 0.05em 0.1em rgba(0, 0, 0, 0.18);
   border: 0px; }
-  .btn-primary:hover, .btn-success:hover, .btn-warning:hover, .btn-danger:hover, .btn-info:hover, .btn-secondary:hover, .btn-dark:hover {
+  .btn-primary:hover,
+  .btn-success:hover,
+  .btn-warning:hover,
+  .btn-danger:hover,
+  .btn-info:hover,
+  .btn-secondary:hover,
+  .btn-dark:hover {
     border: 0px;
     box-shadow: 0 0.05em 1em rgba(0, 0, 0, 0.18); }
 
@@ -818,7 +847,11 @@ Buttons
     line-height: 80px;
     margin: 0 auto;
     font-size: 35px; }
-  .btn-circle .btn-primary i, .btn-circle .btn-success i, .btn-circle .btn-warning i, .btn-circle .btn-danger i, .btn-circle .btn-info i {
+  .btn-circle .btn-primary i,
+  .btn-circle .btn-success i,
+  .btn-circle .btn-warning i,
+  .btn-circle .btn-danger i,
+  .btn-circle .btn-info i {
     color: #fff; }
 
 .icon-sm-rounded {
@@ -921,7 +954,8 @@ SOCIAL BUTTONS
   border: 1px solid #AAA; }
 
 .social-icon-sm:hover {
-  border-color: transparent; }
+  border-color: transparent;
+  background-color: #51ceff; }
 
 .social-icon-sm i {
   display: block;
@@ -969,85 +1003,111 @@ si-border {
   color: #fff !important; }
 
 /**icons hover colored**/
-.si-colored-facebook, .si-facebook:hover {
+.si-colored-facebook,
+.si-facebook:hover {
   background-color: #3B5998 !important; }
 
-.si-colored-twitter, .si-twitter:hover {
+.si-colored-twitter,
+.si-twitter:hover {
   background-color: #00ACEE !important; }
 
-.si-colored-google-plus, .si-g-plus:hover {
+.si-colored-google-plus,
+.si-g-plus:hover {
   background-color: #DD4B39 !important; }
 
-.si-colored-skype, .si-skype:hover {
+.si-colored-skype,
+.si-skype:hover {
   background-color: #00AFF0 !important; }
 
-.si-linkedin:hover, .si-colored-linkedin {
+.si-linkedin:hover,
+.si-colored-linkedin {
   background-color: #0E76A8 !important; }
 
-.si-pin:hover, .si-colored-pinterest {
+.si-pin:hover,
+.si-colored-pinterest {
   background-color: #C8232C !important; }
 
-.si-rss:hover, .si-colored-rss {
+.si-rss:hover,
+.si-colored-rss {
   background-color: #EE802F !important; }
 
-.si-pinterest:hover, .si-colored-pinterest {
+.si-pinterest:hover,
+.si-colored-pinterest {
   background-color: #C8232C !important; }
 
-.si-tumblr:hover, .si-colored-tumblr {
+.si-tumblr:hover,
+.si-colored-tumblr {
   background-color: #34526F !important; }
 
-.si-vimeo:hover, .si-colored-vimeo {
+.si-vimeo:hover,
+.si-colored-vimeo {
   background-color: #86C9EF !important; }
 
-.si-digg:hover, .si-colored-digg {
+.si-digg:hover,
+.si-colored-digg {
   background-color: #191919 !important; }
 
-.si-instagram:hover, .si-colored-instagram {
+.si-instagram:hover,
+.si-colored-instagram {
   background-color: #3F729B !important; }
 
-.si-flickr:hover, .si-colored-flickr {
+.si-flickr:hover,
+.si-colored-flickr {
   background-color: #FF0084 !important; }
 
-.si-paypal:hover, .si-colored-paypal {
+.si-paypal:hover,
+.si-colored-paypal {
   background-color: #00588B !important; }
 
-.si-yahoo:hover, .si-colored-yahoo {
+.si-yahoo:hover,
+.si-colored-yahoo {
   background-color: #720E9E !important; }
 
-.si-android:hover, .si-colored-andriod {
+.si-android:hover,
+.si-colored-andriod {
   background-color: #A4C639 !important; }
 
-.si-appstore:hover, .si-colored-apple {
+.si-appstore:hover,
+.si-colored-apple {
   background-color: #000 !important; }
 
 .si-dropbox:hover {
   background-color: #3D9AE8 !important; }
 
-.si-dribbble:hover, .si-colored-dribbble {
+.si-dribbble:hover,
+.si-colored-dribbble {
   background-color: #EA4C89 !important; }
 
-.si-soundcloud:hover, .si-colored-soundcoloud {
+.si-soundcloud:hover,
+.si-colored-soundcoloud {
   background-color: #F70 !important; }
 
-.si-xing:hover, .si-colored-xing {
+.si-xing:hover,
+.si-colored-xing {
   background-color: #126567 !important; }
 
-.si-phone:hover, .si-colored-phone {
+.si-phone:hover,
+.si-colored-phone {
   background-color: #444 !important; }
 
-.si-behance:hover, .si-colored-behance {
+.si-behance:hover,
+.si-colored-behance {
   background-color: #053eff !important; }
 
-.si-github:hover, .si-colored-github {
+.si-github:hover,
+.si-colored-github {
   background-color: #171515 !important; }
 
-.si-stumbleupon:hover, .si-colored-stumbleupon {
+.si-stumbleupon:hover,
+.si-colored-stumbleupon {
   background-color: #F74425 !important; }
 
-.si-email:hover, .si-colored-email {
+.si-email:hover,
+.si-colored-email {
   background-color: #6567A5 !important; }
 
-.si-wordpress:hover, .si-colored-wordpress {
+.si-wordpress:hover,
+.si-colored-wordpress {
   background-color: #1E8CBE !important; }
 
 .circle-button {
