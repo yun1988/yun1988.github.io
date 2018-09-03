@@ -34,7 +34,7 @@ body {
   color: #999;
   line-height: 1.6;
   letter-spacing: 0em;
-  font-family: "Noto Sans TC", "Open Sans", sans-serif, "微軟正黑體";
+  font-family: "Noto Sans TC", sans-serif, "微軟正黑體";
   overflow-x: hidden; }
 
 button,
@@ -42,7 +42,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Noto Sans TC", "Open Sans", sans-serif, "微軟正黑體"; }
+  font-family: "Noto Sans TC", sans-serif, "微軟正黑體"; }
 
 button:focus {
   outline: 0 !important; }
@@ -75,7 +75,7 @@ h4,
 h5,
 h6 {
   margin-bottom: .5rem;
-  font-family: "Noto Sans TC", "Open Sans", sans-serif, "微軟正黑體";
+  font-family: "Noto Sans TC", sans-serif, "微軟正黑體";
   font-weight: 400;
   line-height: 1.3;
   color: #111; }
@@ -103,12 +103,12 @@ ol {
   margin: 0 0 1.5em 0; }
 
 .tritary-font {
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", sans-serif;
   font-weight: 400;
   font-style: italic; }
 
 .base-font {
-  font-family: "Noto Sans TC", "Open Sans", sans-serif, "微軟正黑體";
+  font-family: "Noto Sans TC", sans-serif, "微軟正黑體";
   font-weight: 400; }
 
 .font300 {
@@ -672,7 +672,7 @@ Buttons
   font-weight: 600 !important;
   letter-spacing: 0px;
   font-size: .8rem;
-  font-family: "Noto Sans TC", "Open Sans", sans-serif, "微軟正黑體";
+  font-family: "Noto Sans TC", sans-serif, "微軟正黑體";
   padding: 10px 30px 10px !important;
   text-transform: uppercase; }
   .btn i,
@@ -1174,7 +1174,7 @@ si-border {
   font-size: .9rem;
   font-weight: 400;
   text-transform: capitalize;
-  font-family: "Noto Sans TC", "Open Sans", sans-serif, "微軟正黑體";
+  font-family: "Noto Sans TC", sans-serif, "微軟正黑體";
   letter-spacing: 0; }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open > .nav-link {
@@ -1261,7 +1261,7 @@ si-border {
   z-index: 1; }
 
 .hero-big-text {
-  font-family: "Noto Sans TC", "Open Sans", sans-serif, "微軟正黑體";
+  font-family: "Noto Sans TC", sans-serif, "微軟正黑體";
   font-weight: 600; }
 
 @media (min-width: 768px) {
@@ -1332,7 +1332,7 @@ Link hover styles
 Portfolio
 */
 .cbp-l-grid-agency-title {
-  font-family: "Noto Sans TC", "Open Sans", sans-serif, "微軟正黑體";
+  font-family: "Noto Sans TC", sans-serif, "微軟正黑體";
   font-weight: 700;
   color: #111;
   letter-spacing: 0px;
@@ -1340,10 +1340,10 @@ Portfolio
   font-size: 14px; }
 
 .cbp-l-grid-agency-desc {
-  font-family: "Noto Sans TC", "Open Sans", sans-serif, "微軟正黑體"; }
+  font-family: "Noto Sans TC", sans-serif, "微軟正黑體"; }
 
 .cbp-l-filters-text .cbp-filter-item {
-  font-family: "Noto Sans TC", "Open Sans", sans-serif, "微軟正黑體"; }
+  font-family: "Noto Sans TC", sans-serif, "微軟正黑體"; }
 
 /*
 Pricing tables
@@ -1376,7 +1376,7 @@ Pricing tables
     .pricing-card .pricing-header .price-title {
       font-size: 1.5rem;
       text-transform: capitalize;
-      font-family: "Noto Sans TC", "Open Sans", sans-serif, "微軟正黑體"; }
+      font-family: "Noto Sans TC", sans-serif, "微軟正黑體"; }
   .pricing-card.active {
     border-top: 5px solid #4683df;
     background-color: #4683df;
@@ -1522,10 +1522,10 @@ Testimonials
   border: 0px; }
 
 .cbp-l-grid-slider-testimonials-body {
-  font-family: "Noto Sans TC", "Open Sans", sans-serif, "微軟正黑體"; }
+  font-family: "Noto Sans TC", sans-serif, "微軟正黑體"; }
 
 .cbp-l-grid-slider-testimonials-footer {
-  font-family: "Noto Sans TC", "Open Sans", sans-serif, "微軟正黑體"; }
+  font-family: "Noto Sans TC", sans-serif, "微軟正黑體"; }
 
 .cbp-l-slider-testimonials-wrap {
   padding-top: 30px; }
@@ -1559,7 +1559,7 @@ Smart forms custom style
   border-radius: 5px; }
 
 .smart-forms label, .smart-forms input, .smart-forms button, .smart-forms select, .smart-forms textarea {
-  font-family: "Noto Sans TC", "Open Sans", sans-serif, "微軟正黑體"; }
+  font-family: "Noto Sans TC", sans-serif, "微軟正黑體"; }
 
 /*
 Footer style
