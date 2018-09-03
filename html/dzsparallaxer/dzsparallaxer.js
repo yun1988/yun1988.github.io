@@ -603,9 +603,9 @@ window.dzsprx_self_options = {};
                     }
 
                     if (o.is_fullscreen == 'on') {
-                        // console.log(_theTarget,_theTarget.height(), target_viy, ch, th, wh); -- trying
-                        // to fix damage .. if(th + target_viy < wh){    target_viy = wh-th;    vi_y =
-                        // wh-th;    //console.info('WHAT HERE', duration_viy, vi_y);
+                        // console.log(_theTarget,_theTarget.height(), target_viy, ch, th, wh); --
+                        // trying to fix damage .. if(th + target_viy < wh){    target_viy = wh-th;
+                        // vi_y = wh-th;    //console.info('WHAT HERE', duration_viy, vi_y);
                         // if(duration_viy>0){
                         //
                         //        backup_duration_viy = duration_viy;    }    duration_viy = 0;
@@ -956,8 +956,9 @@ window.dzsprx_self_options = {};
                                                 auxer5_doubled_inverse = -auxer5_doubled_inverse;
                                             }
 
-                                            // var auxval = cdata[j].initial + (auxer5*2) * cdata[j].mid; if(cdata[j].initial
-                                            // > cdata[j].mid){    auxval = (auxer5*2) * cdata[j].mid - cdata[j].initial; }
+                                            // var auxval = cdata[j].initial + (auxer5*2) * cdata[j].mid;
+                                            // if(cdata[j].initial > cdata[j].mid){    auxval = (auxer5*2) * cdata[j].mid -
+                                            // cdata[j].initial; }
 
                                             var auxval = auxer5_doubled_inverse * cdata[j].initial + auxer5_doubled * cdata[j].mid;
                                             var cval = cdata[j].value;
@@ -973,8 +974,9 @@ window.dzsprx_self_options = {};
                                                 auxer5_doubled_inverse = -auxer5_doubled_inverse;
                                             }
 
-                                            // var auxval = cdata[j].initial + (auxer5*2) * cdata[j].mid; if(cdata[j].initial
-                                            // > cdata[j].mid){    auxval = (auxer5*2) * cdata[j].mid - cdata[j].initial; }
+                                            // var auxval = cdata[j].initial + (auxer5*2) * cdata[j].mid;
+                                            // if(cdata[j].initial > cdata[j].mid){    auxval = (auxer5*2) * cdata[j].mid -
+                                            // cdata[j].initial; }
 
                                             var auxval = auxer5_doubled_inverse * cdata[j].mid + auxer5_doubled * cdata[j].final;
 
@@ -1054,7 +1056,7 @@ window.dzsprx_self_options = {};
                         }
 
                         bo_o = st / ch;
-                        console.info(st, vi_y, ch, th);
+                        //console.info(st, vi_y, ch, th);
 
                         if (cthis.hasClass('simple-parallax') == false) {
                             if (vi_y > 0) {
