@@ -604,8 +604,8 @@ window.dzsprx_self_options = {};
 
                     if (o.is_fullscreen == 'on') {
                         // console.log(_theTarget,_theTarget.height(), target_viy, ch, th, wh); --
-                        // trying to fix damage .. if(th + target_viy < wh){    target_viy = wh-th;
-                        // vi_y = wh-th;    //console.info('WHAT HERE', duration_viy, vi_y);
+                        // trying to fix damage .. if(th + target_viy < wh){    target_viy = wh-th; vi_y
+                        // = wh-th;    //console.info('WHAT HERE', duration_viy, vi_y);
                         // if(duration_viy>0){
                         //
                         //        backup_duration_viy = duration_viy;    }    duration_viy = 0;

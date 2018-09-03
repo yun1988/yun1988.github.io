@@ -14,7 +14,7 @@ gulp.task('watch', function () {
     gulp.watch('html/scss/**/*.scss', ['sass']);
 });
 
-gulp.task('concat ', function () {
+gulp.task('concat', function () {
     return gulp
         .src([
         'html/bower_components/jquery/dist/jquery.min.js',
