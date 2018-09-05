@@ -1,33 +1,39 @@
 $(function () {
-    /* 
-     Custom js file for assan
-     */
-//preloader
-    $(window).preloader({
-        delay: 500
-    });
 
-//shrink header
+    //清除所有cookie函数
+    function clearAllCookie() {
+        var keys = document
+            .cookie
+            .match(/[^ =;]+(?=\=)/g);
+        if (keys) {
+            for (var i = keys.length; i--;) 
+                document.cookie = keys[i] + '=0;expires=' + new Date(0).toUTCString()
+        }
+    }
+
+    clearAllCookie();
+    //preloader
+    $(window).preloader({delay: 500});
+
+    //shrink header
     $(document).on("scroll", function () {
-        if
-                ($(document).scrollTop() > 150) {
+        if ($(document).scrollTop() > 150) {
             $(".navbar-transparent").addClass("fixed-top");
-        } else
-        {
+        } else {
             $(".navbar-transparent").removeClass("fixed-top");
         }
     });
-//back to top
+    //back to top
     if ($('#back-to-top').length) {
         var scrollTrigger = 100, // px
-                backToTop = function () {
-                    var scrollTop = $(window).scrollTop();
-                    if (scrollTop > scrollTrigger) {
-                        $('#back-to-top').addClass('show');
-                    } else {
-                        $('#back-to-top').removeClass('show');
-                    }
-                };
+            backToTop = function () {
+                var scrollTop = $(window).scrollTop();
+                if (scrollTop > scrollTrigger) {
+                    $('#back-to-top').addClass('show');
+                } else {
+                    $('#back-to-top').removeClass('show');
+                }
+            };
         backToTop();
         $(window).on('scroll', function () {
             backToTop();
@@ -40,15 +46,7 @@ $(function () {
         });
     }
 
-    wow = new WOW(
-            {
-                boxClass: 'wow',
-                animateClass: 'animated',
-                offset: 0,
-                mobile: true,
-                live: true
-            }
-    );
+    wow = new WOW({boxClass: 'wow', animateClass: 'animated', offset: 0, mobile: true, live: true});
     wow.init();
 
     //tooltip
@@ -68,9 +66,7 @@ $(function () {
         $('.navbar-toggler:visible').click();
     });
     /**youtube video popup**/
-    $('.modal-video').magnificPopup({
-        type: 'iframe'
-    });
+    $('.modal-video').magnificPopup({type: 'iframe'});
     //knob circle progress bar
     $(".progress-circle").knob();
 });
